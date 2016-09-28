@@ -13,6 +13,12 @@
 		84551F8C1D9C23900099BC50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84551F8A1D9C23900099BC50 /* Main.storyboard */; };
 		84551F8E1D9C23900099BC50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84551F8D1D9C23900099BC50 /* Assets.xcassets */; };
 		84551F911D9C23900099BC50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84551F8F1D9C23900099BC50 /* LaunchScreen.storyboard */; };
+		84551F9A1D9C27D50099BC50 /* CoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 84551F991D9C27D50099BC50 /* CoreDataStack.m */; };
+		84551F9D1D9C28780099BC50 /* FoodTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84551F9B1D9C28780099BC50 /* FoodTracker.xcdatamodeld */; };
+		84551FA21D9C2A700099BC50 /* Meal+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 84551F9F1D9C2A700099BC50 /* Meal+CoreDataClass.m */; };
+		84551FA31D9C2A700099BC50 /* Meal+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 84551FA11D9C2A700099BC50 /* Meal+CoreDataProperties.m */; };
+		84551FA81D9C379E0099BC50 /* User+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 84551FA51D9C379E0099BC50 /* User+CoreDataClass.m */; };
+		84551FA91D9C379E0099BC50 /* User+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 84551FA71D9C379E0099BC50 /* User+CoreDataProperties.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,17 @@
 		84551F8D1D9C23900099BC50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84551F901D9C23900099BC50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84551F921D9C23900099BC50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84551F981D9C27D50099BC50 /* CoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataStack.h; sourceTree = "<group>"; };
+		84551F991D9C27D50099BC50 /* CoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataStack.m; sourceTree = "<group>"; };
+		84551F9C1D9C28780099BC50 /* FoodTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodTracker.xcdatamodel; sourceTree = "<group>"; };
+		84551F9E1D9C2A700099BC50 /* Meal+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Meal+CoreDataClass.h"; sourceTree = "<group>"; };
+		84551F9F1D9C2A700099BC50 /* Meal+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Meal+CoreDataClass.m"; sourceTree = "<group>"; };
+		84551FA01D9C2A700099BC50 /* Meal+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Meal+CoreDataProperties.h"; sourceTree = "<group>"; };
+		84551FA11D9C2A700099BC50 /* Meal+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Meal+CoreDataProperties.m"; sourceTree = "<group>"; };
+		84551FA41D9C379E0099BC50 /* User+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "User+CoreDataClass.h"; sourceTree = "<group>"; };
+		84551FA51D9C379E0099BC50 /* User+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "User+CoreDataClass.m"; sourceTree = "<group>"; };
+		84551FA61D9C379E0099BC50 /* User+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "User+CoreDataProperties.h"; sourceTree = "<group>"; };
+		84551FA71D9C379E0099BC50 /* User+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "User+CoreDataProperties.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +75,21 @@
 		84551F801D9C23900099BC50 /* W4D3-CoreData-1 */ = {
 			isa = PBXGroup;
 			children = (
+				84551FA41D9C379E0099BC50 /* User+CoreDataClass.h */,
+				84551FA51D9C379E0099BC50 /* User+CoreDataClass.m */,
+				84551FA61D9C379E0099BC50 /* User+CoreDataProperties.h */,
+				84551FA71D9C379E0099BC50 /* User+CoreDataProperties.m */,
+				84551F9E1D9C2A700099BC50 /* Meal+CoreDataClass.h */,
+				84551F9F1D9C2A700099BC50 /* Meal+CoreDataClass.m */,
+				84551FA01D9C2A700099BC50 /* Meal+CoreDataProperties.h */,
+				84551FA11D9C2A700099BC50 /* Meal+CoreDataProperties.m */,
 				84551F841D9C23900099BC50 /* AppDelegate.h */,
 				84551F851D9C23900099BC50 /* AppDelegate.m */,
 				84551F871D9C23900099BC50 /* ViewController.h */,
 				84551F881D9C23900099BC50 /* ViewController.m */,
+				84551F981D9C27D50099BC50 /* CoreDataStack.h */,
+				84551F991D9C27D50099BC50 /* CoreDataStack.m */,
+				84551F9B1D9C28780099BC50 /* FoodTracker.xcdatamodeld */,
 				84551F8A1D9C23900099BC50 /* Main.storyboard */,
 				84551F8D1D9C23900099BC50 /* Assets.xcassets */,
 				84551F8F1D9C23900099BC50 /* LaunchScreen.storyboard */,
@@ -153,7 +181,13 @@
 			files = (
 				84551F891D9C23900099BC50 /* ViewController.m in Sources */,
 				84551F861D9C23900099BC50 /* AppDelegate.m in Sources */,
+				84551FA81D9C379E0099BC50 /* User+CoreDataClass.m in Sources */,
+				84551FA91D9C379E0099BC50 /* User+CoreDataProperties.m in Sources */,
+				84551FA21D9C2A700099BC50 /* Meal+CoreDataClass.m in Sources */,
+				84551FA31D9C2A700099BC50 /* Meal+CoreDataProperties.m in Sources */,
 				84551F831D9C23900099BC50 /* main.m in Sources */,
+				84551F9D1D9C28780099BC50 /* FoodTracker.xcdatamodeld in Sources */,
+				84551F9A1D9C27D50099BC50 /* CoreDataStack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +348,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84551F9B1D9C28780099BC50 /* FoodTracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84551F9C1D9C28780099BC50 /* FoodTracker.xcdatamodel */,
+			);
+			currentVersion = 84551F9C1D9C28780099BC50 /* FoodTracker.xcdatamodel */;
+			path = FoodTracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 84551F761D9C23900099BC50 /* Project object */;
 }
