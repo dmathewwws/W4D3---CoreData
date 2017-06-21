@@ -7,7 +7,7 @@
 //
 
 #import "User+CoreDataClass.h"
-#import "Meal.h"
+#import "Meal+CoreDataProperties.h"
 @implementation User
 
 @end

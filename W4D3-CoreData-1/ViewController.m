@@ -29,14 +29,10 @@
     
     NSFetchRequest *mealFetchRequest =  [Meal fetchRequest];
     mealFetchRequest.fetchLimit = 100;
-    
 
     NSSortDescriptor *sortDescription = [NSSortDescriptor sortDescriptorWithKey:@"calories" ascending:YES];
     
     mealFetchRequest.sortDescriptors = @[sortDescription];
-    
-    mealFetchRequest.predicate = [NSPredicate predicateWithFormat:@"name == %@", @"Apple"];
-    
     
     self.frc = [[NSFetchedResultsController alloc] initWithFetchRequest:mealFetchRequest managedObjectContext:self.stack.context sectionNameKeyPath:nil cacheName:nil];
     self.frc.delegate = self;
